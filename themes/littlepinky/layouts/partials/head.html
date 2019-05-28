@@ -1,0 +1,12 @@
+<head>
+	<title>{{ $.Site.Title }}</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+	<meta name="description" content="{{if .IsHome}}{{ $.Site.Params.description }}{{else}}{{.Description}}{{end}}" />
+
+	<!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no" />
+  <!-- Color the status bar on mobile devices -->
+  <meta name="theme-color" content="#F8087E" />
+</head>
