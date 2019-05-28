@@ -8,5 +8,8 @@
 	<!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no" />
   <!-- Color the status bar on mobile devices -->
-  <meta name="theme-color" content="#F8087E" />
+	<meta name="theme-color" content="#F8087E" />
+
+	{{ $style := resources.Get "styles/main.scss" | toCSS | minify | fingerprint }}
+	<link rel="stylesheet" href="{{ $style.Permalink }}">
 </head>
