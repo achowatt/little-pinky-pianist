@@ -1,3 +1,4 @@
 baseURL = "http://littlepinkypianist.com/"
 languageCode = "en-us"
 title = "Anna Chowattanakul"
+theme = "littlepinky"
