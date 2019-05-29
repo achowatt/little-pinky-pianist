@@ -12,4 +12,6 @@
 
 	{{ $style := resources.Get "styles/main.scss" | toCSS | minify | fingerprint }}
 	<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Parisienne&display=swap" rel="stylesheet">
 </head>

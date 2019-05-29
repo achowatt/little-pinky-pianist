@@ -1,11 +1,19 @@
+@import "./variables";
+@import "./typography";
 @import "./sanitize";
+@import "./logo";
 @import "./navbar";
 @import "./home";
 
-ul {
-	margin: 0;
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+html {
+	font-family: $textFont;
+}
+
+ul {
 	margin: 0;
 }
