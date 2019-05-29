@@ -1,9 +1,15 @@
+@import "./variables";
+
 .navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 	background: rgba(0,0,0,.6);
 
 	ul {
 		display: flex;
-		height: 80px;
+		height: $navbarHeight;
 		align-items: center;
 		justify-content: center;
 		max-width: 1024px;
