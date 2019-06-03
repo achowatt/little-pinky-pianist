@@ -17,11 +17,14 @@
 	}
 
 	.logo {
-		margin: 0 48px;
+		font-family: $headerFont;
+		color: $themeColor;
+		font-size: 40px;
+		margin: 0 36px;
 	}
 
 	li {
-		padding: 24px 12px;
+		padding: 12px;
 		margin: 0 12px;
 		cursor: pointer;
 	}

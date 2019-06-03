@@ -5,4 +5,10 @@ h1 {
 
 p {
 	font-family: $textFont;
+	line-height: 1.6;
+}
+
+a {
+	color: $themeColor;
+	text-decoration: none;
 }
