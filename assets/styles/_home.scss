@@ -19,4 +19,26 @@
 		margin: 0;
 		letter-spacing: 4.25px;
 	}
+
+	@media screen and (max-width: 760px) {
+		h1 {
+			max-width: 440px;
+			text-align: center;
+			line-height: 0.8;
+			margin-bottom: 20px;
+		}
+	}
+
+	@media screen and (max-width: 480px) {
+		h1 {
+			padding: 0 20px;
+			font-size: 50px;
+			margin-bottom: 12px;
+		}
+
+		p {
+			font-size: 12px;
+			letter-spacing: 3.2px;
+		}
+	}
 }

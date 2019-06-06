@@ -1,0 +1,16 @@
+<script>
+	var menuItems = document.getElementById('menu-items');
+	var menuButton = document.getElementById('menu');
+
+	document.getElementById('menu').addEventListener('click', (e) => {
+		menuButton.classList.toggle('active');
+		menuItems.classList.toggle('show');
+	});
+
+	document.querySelectorAll('li a').forEach(elem => {
+		elem.addEventListener('click', (e) => {
+			menuButton.classList.remove('active');
+			menuItems.classList.remove('show');
+		});
+	});
+</script>
